@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment and Logs
+*.log
+.env
+.env.local
+
+# OS Metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Scratch files
+.vscode/
+.idea/
+*.tmp

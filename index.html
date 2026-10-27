@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[Alex Morgan] | Student Software Engineer & Systems Researcher Portfolio</title>
+  <meta name="description" content="Competition-ready student engineering portfolio of [Alex Morgan], featuring award-winning projects in distributed systems, machine learning, and full-stack development.">
+  <meta name="keywords" content="Student Portfolio, Software Engineer, Computer Science, Machine Learning, Web Development, Hackathon Winner">
+  <meta name="author" content="[Alex Morgan]">
+
+  <!-- Open Graph / Social Media Meta Tags -->
+  <meta property="og:title" content="[Alex Morgan] | Student Engineering Portfolio">
+  <meta property="og:description" content="Showcasing high-impact student software engineering projects, hackathon awards, and technical skills.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/avatar.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Accessibility: Skip to Content -->
+  <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+  <!-- Ambient Background Glows -->
+  <div class="ambient-glow" aria-hidden="true">
+    <div class="glow-orb glow-orb-1"></div>
+    <div class="glow-orb glow-orb-2"></div>
+    <div class="glow-orb glow-orb-3"></div>
+  </div>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION
+       ========================================================================== -->
+  <header class="site-header" role="banner">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Home">
+        <span class="brand-symbol">AM</span>
+        <span class="brand-text student-name-text">[Alex Morgan]</span>
+        <span class="brand-badge">CS '27</span>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav id="nav-menu" class="nav-menu" role="navigation" aria-label="Main Navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#achievements" class="nav-link">Achievements</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Action Items: Theme Toggle, Customizer, and Mobile Menu Toggle -->
+      <div class="header-actions">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="btn-icon" aria-label="Toggle dark/light theme" title="Toggle Theme">
+          <svg id="theme-icon-light" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg id="theme-icon-dark" style="display:none;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Quick Profile Personalizer Button -->
+        <button id="open-customizer-btn" class="btn btn-secondary btn-sm" title="Edit candidate details directly" aria-label="Customize profile placeholders">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 20h9"></path>
+            <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+          </svg>
+          <span>Customize Info</span>
+        </button>
+
+        <!-- Mobile Hamburger Button -->
+        <button id="hamburger-btn" class="hamburger-btn" aria-label="Open navigation menu" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       MAIN CONTENT
+       ========================================================================== -->
+  <main id="main-content">
+
+    <!-- 1. HERO SECTION -->
+    <section id="hero" class="hero-section" aria-labelledby="hero-heading">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Hero Text Content -->
+          <div class="hero-content">
+            <div class="status-badge" role="status">
+              <span class="status-dot"></span>
+              <span>Available for Summer 2027 Internships & Research</span>
+              <span class="placeholder-indicator" title="Customizable Placeholder">[Open]</span>
+            </div>
+
+            <h1 id="hero-heading" class="hero-title">
+              Hi, I'm <span class="gradient-text student-name-text">[Alex Morgan]</span>.<br>
+              <span class="student-title-text">Building intelligent web apps & distributed systems.</span>
+            </h1>
+
+            <p class="hero-description">
+              Undergraduate Computer Science student at <strong class="student-school-text">[Stanford University / Your Institution]</strong>. Passionate about distributed systems, neural network acceleration, and building robust, competition-winning software solutions.
+            </p>
+
+            <!-- Hero Primary CTAs -->
+            <div class="hero-ctas">
+              <a href="#projects" class="btn btn-primary" id="cta-view-projects">
+                <span>View Featured Projects</span>
+                <svg class="arrow-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+
+              <a href="#contact" class="btn btn-secondary" id="cta-contact-me">
+                <span>Get in Touch</span>
+              </a>
+
+              <button class="btn btn-secondary btn-copy" data-copy="alex.morgan.student@example.edu" title="Copy email address" aria-label="Copy email address">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                <span>Copy Email</span>
+              </button>
+            </div>
+
+            <!-- Key Metric Counters -->
+            <div class="hero-metrics">
+              <div class="metric-item">
+                <span class="metric-value">3x</span>
+                <span class="metric-label">Hackathon Winner <span class="placeholder-indicator">[Verified]</span></span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-value">1,400+</span>
+                <span class="metric-label">GitHub Stars <span class="placeholder-indicator">[Open Source]</span></span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-value">3.94</span>
+                <span class="metric-label">GPA <span class="placeholder-indicator">[Top 2%]</span></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Visual & Avatar Frame -->
+          <div class="hero-visual">
+            <div class="visual-card-wrap">
+              <div class="avatar-frame">
+                <img src="assets/avatar.jpg" alt="Portrait illustration of [Alex Morgan], computer science student and software engineer" width="400" height="400" loading="eager">
+              </div>
+
+              <!-- Floating Micro-Badges -->
+              <div class="floating-badge floating-badge-top" aria-hidden="true">
+                <div class="badge-icon trophy">🏆</div>
+                <div class="badge-info">
+                  <h4>1st Place Winner</h4>
+                  <p>National AI Hackathon '26</p>
+                </div>
+              </div>
+
+              <div class="floating-badge floating-badge-bottom" aria-hidden="true">
+                <div class="badge-icon code">⚡</div>
+                <div class="badge-info">
+                  <h4>Full-Stack & Cloud</h4>
+                  <p>12k+ Inferences/mo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. ABOUT SECTION -->
+    <section id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+            Background & Mindset
+          </div>
+          <h2 id="about-heading" class="section-title">Driven by Curiosity, Engineered for Impact</h2>
+          <p class="section-subtitle">A quick introduction to my academic journey, engineering philosophy, and what I bring to ambitious engineering teams.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Narrative Story -->
+          <div class="about-story">
+            <p class="story-lead">
+              I am a third-year Computer Science student at <span class="student-school-text">[Stanford University / Your Institution]</span>, specializing in Systems and Artificial Intelligence.
+            </p>
+            <p class="story-body">
+              My engineering journey began with a curiosity about how software behaves under extreme pressure. Over the past three years, I've transformed that curiosity into winning solutions at national hackathons, contributing to open-source developer tooling, and conducting undergraduate systems research.
+            </p>
+            <p class="story-body">
+              Whether building low-latency inference pipelines, architecting distributed microservices, or designing accessible web user experiences, I focus on clean abstraction, measurable performance gains, and empathetic collaboration.
+            </p>
+
+            <!-- Judge 60-Second Snapshot Box -->
+            <div class="judge-highlight-box">
+              <div class="judge-box-title">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <span>JUDGE'S 60-SECOND TL;DR</span>
+              </div>
+              <ul class="judge-points">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span><strong>Proven Execution:</strong> Shipped 3 full-stack systems with real-world users, winning 1st place across major student hackathons.</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span><strong>Deep Fundamentals:</strong> Rigorous coursework in Operating Systems, Distributed Systems, Compilers, and Deep Learning (GPA 3.94).</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span><strong>Collaborative Leadership:</strong> President of the University Developer Club; mentored 80+ underclassmen in web and system development.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Quick Fact Cards -->
+          <div class="about-cards">
+            <!-- Education Fact Card -->
+            <div class="fact-card">
+              <div class="fact-header">
+                <div class="fact-icon-wrap">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+                </div>
+                <h3>Education & Standing</h3>
+              </div>
+              <ul class="fact-details">
+                <li><strong>Degree:</strong> B.S. in Computer Science <span class="placeholder-indicator">[Class of 2027]</span></li>
+                <li><strong>Institution:</strong> <span class="student-school-text">[Stanford University / Your Institution]</span></li>
+                <li><strong>Academic Honors:</strong> Dean's List (6 Semesters), Tau Beta Pi Member</li>
+                <li><strong>Relevant Coursework:</strong> Distributed Systems, Database Internals, Machine Learning, Computer Networks, Algorithms</li>
+              </ul>
+            </div>
+
+            <!-- Current Focus Fact Card -->
+            <div class="fact-card">
+              <div class="fact-header">
+                <div class="fact-icon-wrap">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                </div>
+                <h3>Current Research & Focus</h3>
+              </div>
+              <ul class="fact-details">
+                <li><strong>Research Lab:</strong> Distributed Systems & Neural Acceleration Lab</li>
+                <li><strong>Core Interest:</strong> Latency optimization in model serving & edge inference</li>
+                <li><strong>Leadership:</strong> Tech Lead @ Collegiate Developer Guild</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. SKILLS SECTION -->
+    <section id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+            Technical Arsenal
+          </div>
+          <h2 id="skills-heading" class="section-title">Skills & Modern Technologies</h2>
+          <p class="section-subtitle">Categorized tools and technologies I've leveraged across research projects, production deployments, and hackathons.</p>
+        </div>
+
+        <!-- Filter tabs for skills -->
+        <div class="skills-tabs" role="tablist" aria-label="Skills Category Filters">
+          <button class="skill-tab-btn active" role="tab" aria-selected="true" data-category="all">All Skills</button>
+          <button class="skill-tab-btn" role="tab" aria-selected="false" data-category="languages">Languages</button>
+          <button class="skill-tab-btn" role="tab" aria-selected="false" data-category="frameworks">Frameworks & Web</button>
+          <button class="skill-tab-btn" role="tab" aria-selected="false" data-category="systems">Systems & Cloud</button>
+          <button class="skill-tab-btn" role="tab" aria-selected="false" data-category="tools">Tools & Architecture</button>
+        </div>
+
+        <!-- Skills Cards Grid -->
+        <div class="skills-grid">
+          
+          <!-- Category 1: Languages -->
+          <div class="skill-category-card" data-category="languages">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 7 4 4 20 4 20 7"></polyline><line x1="9" y1="20" x2="15" y2="20"></line><line x1="12" y1="4" x2="12" y2="20"></line></svg>
+              </div>
+              <h3>Programming Languages</h3>
+            </div>
+            <div class="skill-tags-cloud">
+              <span class="skill-tag"><span class="skill-level-dot"></span>Python (Advanced)</span>
+              <span class="skill-tag"><span class="skill-level-dot"></span>TypeScript / JS</span>
+              <span class="skill-tag"><span class="skill-level-dot"></span>Go (Golang)</span>
+              <span class="skill-tag"><span class="skill-level-dot"></span>C / C++</span>
+              <span class="skill-tag"><span class="skill-level-dot"></span>SQL (Postgres)</span>
+              <span class="skill-tag"><span class="skill-level-dot"></span>Rust (Familiar)</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Frameworks & Web -->
+          <div class="skill-category-card" data-category="frameworks">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              </div>
+              <h3>Frameworks & Web</h3>
+            </div>
+            <div class="skill-tags-cloud">
+              <span class="skill-tag"><span class="skill-level-dot"></span>React.js / Next.js</span>
+              <span class="skill-tag"><span class="skill-level-dot"></span>FastAPI</span>
+              <span class="skill-tag"><span class="skill-level-dot"></span>Node.js / Express</span>
+              <span class="skill-tag"><span class="skill-level-dot"></span>PyTorch & TensorRT</span>
+              <span class="skill-tag"><span class="skill-level-dot"></span>HTML5 / Modern CSS</span>
+              <span class="skill-tag"><span class="skill-level-dot"></span>WebSockets / gRPC</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Systems & Cloud -->
+          <div class="skill-category-card" data-category="systems">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
+              </div>
+              <h3>Systems & Cloud</h3>
+            </div>
+            <div class="skill-tags-cloud">
+              <span class="skill-tag"><span class="skill-level-dot"></span>Docker & Containers</span>
+              <span class="skill-tag"><span class="skill-level-dot"></span>Kubernetes (K8s)</span>
+              <span class="skill-tag"><span class="skill-level-dot"></span>AWS (EC2, S3, Lambda)</span>
+              <span class="skill-tag"><span class="skill-level-dot"></span>Redis / Caching</span>
+              <span class="skill-tag"><span class="skill-level-dot"></span>PostgreSQL / Timescale</span>
+              <span class="skill-tag"><span class="skill-level-dot"></span>Linux / Shell Scripting</span>
+            </div>
+          </div>
+
+          <!-- Category 4: Tools & Architecture -->
+          <div class="skill-category-card" data-category="tools">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+              </div>
+              <h3>Engineering Practices</h3>
+            </div>
+            <div class="skill-tags-cloud">
+              <span class="skill-tag"><span class="skill-level-dot"></span>Git & CI/CD Pipelines</span>
+              <span class="skill-tag"><span class="skill-level-dot"></span>Microservices Design</span>
+              <span class="skill-tag"><span class="skill-level-dot"></span>REST & GraphQL APIs</span>
+              <span class="skill-tag"><span class="skill-level-dot"></span>Unit & End-to-End Testing</span>
+              <span class="skill-tag"><span class="skill-level-dot"></span>System Observability</span>
+              <span class="skill-tag"><span class="skill-level-dot"></span>Agile / Scrum Teamwork</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Continuous Learning Banner -->
+        <div class="learning-banner">
+          <div class="learning-info">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+            <span>Currently Exploring / Deepening:</span>
+          </div>
+          <div class="learning-tags">
+            <span class="learning-pill">CUDA GPU Kernels</span>
+            <span class="learning-pill">WebAssembly (WASM)</span>
+            <span class="learning-pill">eBPF Kernel Probing</span>
+            <span class="learning-pill">RAG Vector Optimization</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. FEATURED PROJECTS SECTION -->
+    <section id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+            Selected Works
+          </div>
+          <h2 id="projects-heading" class="section-title">Competition & Research Projects</h2>
+          <p class="section-subtitle">Explore each project card below to see my specific engineering role, technical stack, verified metrics, live demos, and deep-dive architecture breakdowns.</p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="projects-controls">
+          <div class="filter-group" role="tablist" aria-label="Project Filters">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="ai">AI & Machine Learning</button>
+            <button class="filter-btn" data-filter="cloud">Cloud & Systems</button>
+            <button class="filter-btn" data-filter="web">Full-Stack & IoT</button>
+          </div>
+          <div id="projects-count" class="projects-counter">Showing 3 of 3 projects</div>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+
+          <!-- Project 1: SynthFlow AI -->
+          <article class="project-card" data-category="ai">
+            <div class="project-thumb">
+              <img src="assets/project-synthflow.jpg" alt="SynthFlow AI neural inference pipeline dashboard with latency graphs and node graph" width="600" height="338" loading="lazy">
+              <span class="project-award-badge">🏆 1st Place National AI Hackathon</span>
+              <span class="project-category-tag">AI / ML</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">SynthFlow AI</h3>
+              <div class="project-role-bar">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                <span>Role: Lead ML Architect & Developer</span>
+              </div>
+              <p class="project-desc">
+                High-throughput distributed neural network orchestration engine and visual workflow pipeline builder that optimizes LLM multi-step inference chains with sub-10ms P99 latency.
+              </p>
+              
+              <div class="project-metrics-pill">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+                <span><strong>Outcome:</strong> 42% latency cut | 1,420+ GitHub Stars | 12k inferences/mo</span>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">PyTorch</span>
+                <span class="tech-tag">FastAPI</span>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Redis</span>
+                <span class="tech-tag">Docker</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm btn-deep-dive" data-project="synthflow" aria-label="Deep dive into SynthFlow AI architecture and challenges">
+                  <span>Deep Dive</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="https://synthflow-demo.example.edu" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" aria-label="Open SynthFlow AI live demo placeholder">
+                  <span>Demo</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+                <a href="https://github.com/placeholder-student/synthflow-ai" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" aria-label="View SynthFlow AI source code repository placeholder">
+                  <span>Code</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: DevMesh -->
+          <article class="project-card" data-category="cloud">
+            <div class="project-thumb">
+              <img src="assets/project-devmesh.jpg" alt="DevMesh microservices network topology visualization with live log stream and health telemetry" width="600" height="338" loading="lazy">
+              <span class="project-award-badge">🥈 Runner-Up DevCon Showcase</span>
+              <span class="project-category-tag">Systems</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">DevMesh</h3>
+              <div class="project-role-bar">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                <span>Role: Backend Architect & DevOps Lead</span>
+              </div>
+              <p class="project-desc">
+                Real-time collaborative microservice topology simulator and distributed API tracer with simulated network chaos injection and live latency waterfall charts.
+              </p>
+              
+              <div class="project-metrics-pill">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+                <span><strong>Outcome:</strong> Sub-15ms telemetry sync | 50+ services modeled | 850+ forks</span>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Go</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">gRPC</span>
+                <span class="tech-tag">Kubernetes</span>
+                <span class="tech-tag">Tailwind</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm btn-deep-dive" data-project="devmesh" aria-label="Deep dive into DevMesh architecture and challenges">
+                  <span>Deep Dive</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="https://devmesh-demo.example.edu" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" aria-label="Open DevMesh live demo placeholder">
+                  <span>Demo</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+                <a href="https://github.com/placeholder-student/devmesh-cloud" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" aria-label="View DevMesh source code repository placeholder">
+                  <span>Code</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: EcoPulse -->
+          <article class="project-card" data-category="web">
+            <div class="project-thumb">
+              <img src="assets/project-ecopulse.jpg" alt="EcoPulse responsive desktop and mobile dashboards displaying clean energy generation curves" width="600" height="338" loading="lazy">
+              <span class="project-award-badge">🌱 CleanTech Grand Prize</span>
+              <span class="project-category-tag">Full-Stack & IoT</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">EcoPulse</h3>
+              <div class="project-role-bar">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                <span>Role: Lead Frontend & IoT Integration</span>
+              </div>
+              <p class="project-desc">
+                Autonomous renewable grid intelligence and telemetry platform for campus facilities, providing predictive battery discharge curves and real-time carbon offsets.
+              </p>
+              
+              <div class="project-metrics-pill">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+                <span><strong>Outcome:</strong> ~18% peak energy reduction | 3 campus testbeds | 99.98% uptime</span>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">TimescaleDB</span>
+                <span class="tech-tag">MQTT</span>
+                <span class="tech-tag">Chart.js</span>
+                <span class="tech-tag">ESP32</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm btn-deep-dive" data-project="ecopulse" aria-label="Deep dive into EcoPulse architecture and challenges">
+                  <span>Deep Dive</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="https://ecopulse-demo.example.edu" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" aria-label="Open EcoPulse live demo placeholder">
+                  <span>Demo</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+                <a href="https://github.com/placeholder-student/ecopulse-iot" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" aria-label="View EcoPulse source code repository placeholder">
+                  <span>Code</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. ACHIEVEMENTS & HONORS SECTION -->
+    <section id="achievements" aria-labelledby="achievements-heading">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+            Recognition & Honors
+          </div>
+          <h2 id="achievements-heading" class="section-title">Verified Achievements</h2>
+          <p class="section-subtitle">Highlights from competitive hackathons, academic scholarship lists, and leadership contributions.</p>
+        </div>
+
+        <div class="achievements-grid">
+          
+          <!-- Achievement 1 -->
+          <div class="achievement-card">
+            <div class="achievement-icon-box" aria-hidden="true">🏆</div>
+            <div class="achievement-details">
+              <span class="achievement-date">Spring 2026</span>
+              <h3>1st Place Winner - AI Innovation Track</h3>
+              <p class="achievement-event">National Collegiate AI Hackathon <span class="placeholder-indicator">[Official]</span></p>
+              <p class="achievement-desc">Awarded top prize among 140+ collegiate engineering teams for SynthFlow AI's real-time latency optimization.</p>
+              <button class="achievement-action-btn" data-award-title="1st Place Winner - AI Innovation Track" data-award-event="National Collegiate AI Hackathon 2026" data-award-date="March 2026">
+                <span>View Certificate Details</span>
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Achievement 2 -->
+          <div class="achievement-card">
+            <div class="achievement-icon-box" aria-hidden="true">🥈</div>
+            <div class="achievement-details">
+              <span class="achievement-date">Fall 2025</span>
+              <h3>Best Cloud Architecture Award</h3>
+              <p class="achievement-event">DevCon Student Showcase 2025</p>
+              <p class="achievement-desc">Recognized for DevMesh's resilient microservice eBPF tracing and fault-injection mechanism.</p>
+              <button class="achievement-action-btn" data-award-title="Best Cloud Architecture Award" data-award-event="DevCon Student Showcase 2025" data-award-date="October 2025">
+                <span>View Certificate Details</span>
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Achievement 3 -->
+          <div class="achievement-card">
+            <div class="achievement-icon-box" aria-hidden="true">🌱</div>
+            <div class="achievement-details">
+              <span class="achievement-date">Summer 2025</span>
+              <h3>Grand Prize Winner - CleanTech</h3>
+              <p class="achievement-event">Global CleanTech Challenge 2025</p>
+              <p class="achievement-desc">Selected as the most scalable energy conservation system for university micro-grids.</p>
+              <button class="achievement-action-btn" data-award-title="Grand Prize Winner - CleanTech" data-award-event="Global CleanTech Challenge 2025" data-award-date="July 2025">
+                <span>View Certificate Details</span>
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Achievement 4 -->
+          <div class="achievement-card">
+            <div class="achievement-icon-box" aria-hidden="true">⭐</div>
+            <div class="achievement-details">
+              <span class="achievement-date">2024 - 2026</span>
+              <h3>Dean's Honor List (6 Semesters)</h3>
+              <p class="achievement-event"><span class="student-school-text">[Stanford University / Your Institution]</span></p>
+              <p class="achievement-desc">Maintained a cumulative 3.94 GPA across advanced computer science, mathematics, and systems curricula.</p>
+              <button class="achievement-action-btn" data-award-title="Dean's Honor List Distinction" data-award-event="School of Engineering Dean's Office" data-award-date="2024 - 2026">
+                <span>View Distinction Record</span>
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Achievement 5 -->
+          <div class="achievement-card">
+            <div class="achievement-icon-box" aria-hidden="true">🚀</div>
+            <div class="achievement-details">
+              <span class="achievement-date">2025 - Present</span>
+              <h3>President & Technical Director</h3>
+              <p class="achievement-event">Collegiate Open Source Club</p>
+              <p class="achievement-desc">Leading weekly workshops on distributed systems, git workflows, and organizing collegiate hackathons.</p>
+              <button class="achievement-action-btn" data-award-title="Executive Leadership Certificate" data-award-event="Collegiate Student Activities Board" data-award-date="Elected Term 2025-2027">
+                <span>View Leadership Charter</span>
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Achievement 6 -->
+          <div class="achievement-card">
+            <div class="achievement-icon-box" aria-hidden="true">📜</div>
+            <div class="achievement-details">
+              <span class="achievement-date">Certified 2025</span>
+              <h3>AWS Certified Solutions Architect</h3>
+              <p class="achievement-event">Amazon Web Services <span class="placeholder-indicator">[Associate]</span></p>
+              <p class="achievement-desc">Demonstrated proficiency in architecting secure, resilient, high-performing cloud architectures on AWS.</p>
+              <button class="achievement-action-btn" data-award-title="AWS Certified Solutions Architect - Associate" data-award-event="AWS Certification Portal (Placeholder ID: SAA-C03-XXXX)" data-award-date="Valid 2025 - 2028">
+                <span>View Credential Details</span>
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. CONTACT SECTION -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            Let's Connect
+          </div>
+          <h2 id="contact-heading" class="section-title">Get in Touch with Me</h2>
+          <p class="section-subtitle">Interested in discussing summer 2027 internships, research collaborations, hackathons, or project feedback? Send a message or reach out directly.</p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Info & Quick Copy Methods -->
+          <div class="contact-info-col">
+            <div class="contact-direct-card">
+              <h3 style="font-size: 1.2rem; margin-bottom: 6px;">Direct Contact Methods</h3>
+              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 12px;">Click copy on any channel for instant access.</p>
+
+              <!-- Email Method -->
+              <div class="direct-method">
+                <div class="method-label">
+                  <div class="method-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                  </div>
+                  <div class="method-text">
+                    <strong>University Email</strong>
+                    <span class="student-email-text">alex.morgan.student@example.edu</span>
+                  </div>
+                </div>
+                <button class="btn-copy" data-copy="alex.morgan.student@example.edu" aria-label="Copy university email address">Copy</button>
+              </div>
+
+              <!-- Discord Method -->
+              <div class="direct-method">
+                <div class="method-label">
+                  <div class="method-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                  </div>
+                  <div class="method-text">
+                    <strong>Discord Moniker</strong>
+                    <span>alexdev#2026</span>
+                  </div>
+                </div>
+                <button class="btn-copy" data-copy="alexdev#2026" aria-label="Copy Discord moniker">Copy</button>
+              </div>
+
+              <!-- Location / Timezone Method -->
+              <div class="direct-method">
+                <div class="method-label">
+                  <div class="method-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                  </div>
+                  <div class="method-text">
+                    <strong>Location & Availability</strong>
+                    <span>Pacific Time (PT) | Ready for Relocation</span>
+                  </div>
+                </div>
+                <span class="placeholder-indicator">[Summer '27]</span>
+              </div>
+            </div>
+
+            <!-- Social Links Row -->
+            <div class="social-links-row" aria-label="Professional Social Links">
+              <a href="https://github.com/placeholder-student" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub Profile Placeholder">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <span>GitHub</span>
+              </a>
+
+              <a href="https://linkedin.com/in/placeholder-student" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn Profile Placeholder">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                <span>LinkedIn</span>
+              </a>
+
+              <a href="https://scholar.google.com/citations?user=placeholder" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Google Scholar Placeholder">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+                <span>Google Scholar</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="contact-form-card">
+            <div class="form-header">
+              <h3>Send Me a Message</h3>
+              <p>Fill out the fields below to simulate sending an inquiry. Instant validation included.</p>
+            </div>
+
+            <!-- Simulated Success Notification -->
+            <div id="form-success-banner" style="display:none; padding: 14px 18px; background: rgba(16, 185, 129, 0.15); border: 1px solid var(--accent-emerald); border-radius: var(--radius-sm); color: var(--accent-emerald); font-size: 0.9rem; margin-bottom: 18px;" role="status">
+              ✓ Message delivered! I usually reply within 24 hours.
+            </div>
+
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="form-group-row">
+                <div class="form-field">
+                  <label for="sender-name">Your Name *</label>
+                  <input type="text" id="sender-name" name="name" placeholder="Judge or Recruiter Name" required autocomplete="name">
+                  <span class="field-error">Please enter your name</span>
+                </div>
+
+                <div class="form-field">
+                  <label for="sender-email">Your Email *</label>
+                  <input type="email" id="sender-email" name="email" placeholder="recruiter@company.com" required autocomplete="email">
+                  <span class="field-error">Please enter a valid email address</span>
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="sender-subject">Subject *</label>
+                <input type="text" id="sender-subject" name="subject" placeholder="Internship Opportunity / Project Review" required>
+                <span class="field-error">Please specify a subject</span>
+              </div>
+
+              <div class="form-field">
+                <label for="sender-message">Message *</label>
+                <textarea id="sender-message" name="message" placeholder="Hi Alex, I reviewed your SynthFlow AI project and would love to chat regarding..." required></textarea>
+                <span class="field-error">Please write a message with at least 15 characters</span>
+              </div>
+
+              <button type="submit" id="form-submit-btn" class="btn btn-primary" style="width: 100%;">
+                <span>Send Message</span>
+                <svg class="arrow-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="brand-logo">
+            <span class="brand-symbol">AM</span>
+            <span class="brand-text student-name-text">[Alex Morgan]</span>
+          </a>
+          <p>Undergraduate Computer Science & Systems Engineering Candidate. Focused on building high-performance, accessible software for high-impact teams.</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer Navigation">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#achievements">Achievements</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-note">
+          Designed for collegiate competitions & engineering evaluations.
+        </div>
+        <div>
+          &copy; 2026-2027 <span class="student-name-text">[Alex Morgan]</span>. All rights reserved.
+        </div>
+        <a href="#hero" class="back-to-top" aria-label="Back to top of page" title="Back to top">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODALS: PROJECT DEEP DIVE MODAL
+       ========================================================================== -->
+  <div id="project-modal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-container">
+      <button id="modal-close-btn" class="modal-close-btn" aria-label="Close project deep dive modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <img id="modal-img" class="modal-hero-image" src="" alt="Project deep dive screenshot preview">
+
+      <div class="modal-content">
+        <div class="modal-tags-row">
+          <span id="modal-award" class="project-award-badge" style="position:static;"></span>
+        </div>
+
+        <h2 id="modal-title" class="modal-title"></h2>
+        <div id="modal-role" class="modal-role"></div>
+
+        <p id="modal-summary" style="font-size: 1.05rem; color: var(--text-primary); line-height: 1.6; margin-bottom: 20px;"></p>
+
+        <!-- Technical Metrics Grid -->
+        <h4 class="modal-section-title">Verified Project Outcomes</h4>
+        <div id="modal-metrics-grid" class="modal-grid-metrics"></div>
+
+        <!-- Problem Statement -->
+        <h4 class="modal-section-title">The Engineering Challenge</h4>
+        <p id="modal-problem" style="color: var(--text-secondary); line-height: 1.6; margin-bottom: 16px;"></p>
+
+        <!-- Technical Solution -->
+        <h4 class="modal-section-title">Architectural Solution</h4>
+        <p id="modal-solution" style="color: var(--text-secondary); line-height: 1.6; margin-bottom: 20px;"></p>
+
+        <!-- Tech Stack -->
+        <h4 class="modal-section-title">Technologies Leveraged</h4>
+        <div id="modal-tech-tags" class="skill-tags-cloud" style="margin-bottom: 20px;"></div>
+
+        <!-- Modal Action Footer -->
+        <div class="modal-actions-footer">
+          <a id="modal-demo-link" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+            <span>Open Live Prototype</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+          <a id="modal-github-link" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+            <span>View GitHub Repository</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       MODALS: CERTIFICATE & AWARD MODAL
+       ========================================================================== -->
+  <div id="cert-modal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="cert-title">
+    <div class="modal-container" style="max-width: 580px;">
+      <button id="cert-close-btn" class="modal-close-btn" aria-label="Close certificate modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal-content" style="text-align: center; padding-top: 40px;">
+        <div style="width: 60px; height: 60px; margin: 0 auto 16px auto; border-radius: 50%; background: rgba(245, 158, 11, 0.15); display: flex; align-items: center; justify-content: center; font-size: 1.8rem;">
+          🏅
+        </div>
+        <span class="section-tag" style="margin-bottom: 12px;">Official Credential Verification</span>
+        <h3 id="cert-title" style="font-size: 1.5rem; margin-bottom: 8px;"></h3>
+        <p id="cert-event" style="color: var(--accent-cyan); font-weight: 600; font-family: var(--font-mono); margin-bottom: 6px;"></p>
+        <p id="cert-date" style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 24px;"></p>
+
+        <div style="background: var(--bg-surface-elevated); border: 1px dashed var(--border-subtle); border-radius: var(--radius-sm); padding: 18px; margin-bottom: 24px; text-align: left;">
+          <div style="font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-muted); margin-bottom: 6px;">CANDIDATE RECORD:</div>
+          <div style="font-size: 0.95rem; font-weight: 700; color: var(--text-primary); margin-bottom: 4px;">Student: <span class="student-name-text">[Alex Morgan]</span></div>
+          <div style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 4px;">Institution: <span class="student-school-text">[Stanford University / Your Institution]</span></div>
+          <div style="font-size: 0.78rem; font-family: var(--font-mono); color: var(--accent-emerald);">Status: Verified Record / Placeholder Hash: #VER-2026-CS-8931</div>
+        </div>
+
+        <button class="btn btn-secondary btn-sm" onclick="document.getElementById('cert-modal').classList.remove('open'); document.body.style.overflow='';" style="width: 100%;">
+          Close Preview
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       QUICK CUSTOMIZER DRAWER (Allows updating placeholders without fake info)
+       ========================================================================== -->
+  <aside id="customizer-drawer" class="customizer-drawer" aria-label="Student Profile Customizer" aria-hidden="true">
+    <div class="customizer-header">
+      <h3 style="font-size: 1.15rem; font-weight: 700;">Personalize Portfolio</h3>
+      <button id="close-customizer-btn" class="btn-icon" aria-label="Close customizer">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <div class="customizer-body">
+      <div class="customizer-hint">
+        <strong>Competition Placeholder Compliance:</strong> To avoid inventing personal details, you can replace the default candidate placeholders with your real name, school, and contact details below. Changes reflect on the live page immediately!
+      </div>
+
+      <div class="form-field">
+        <label for="cust-name">Your Full Name</label>
+        <input type="text" id="cust-name" value="[Alex Morgan]">
+      </div>
+
+      <div class="form-field">
+        <label for="cust-title">Headline / Passion</label>
+        <input type="text" id="cust-title" value="Building intelligent web apps & distributed systems">
+      </div>
+
+      <div class="form-field">
+        <label for="cust-school">Your University / Institution</label>
+        <input type="text" id="cust-school" value="[Stanford University / Your Institution]">
+      </div>
+
+      <div class="form-field">
+        <label for="cust-email">Contact Email</label>
+        <input type="email" id="cust-email" value="alex.morgan.student@example.edu">
+      </div>
+    </div>
+
+    <div class="customizer-footer">
+      <button id="apply-customizer-btn" class="btn btn-primary" style="flex: 1;">Apply Live</button>
+      <button id="reset-customizer-btn" class="btn btn-secondary" style="flex: 1;">Reset</button>
+    </div>
+  </aside>
+
+  <!-- Script File -->
+  <script src="script.js"></script>
+</body>
+</html>
